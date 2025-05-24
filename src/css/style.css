@@ -1,0 +1,20 @@
+/* colour palette */
+/* Light Mode */
+:root {
+  --background-color: #dadada;
+  --text-color: #000;
+  --primary-color: #000;
+  --secondary-color: #000;
+  --special-links: #b49103;
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #1e1e1e;
+    --text-color: #fff;
+    --primary-color: #fff;
+    --secondary-color: #fff;
+    --special-links: #b49103;
+  }
+}
