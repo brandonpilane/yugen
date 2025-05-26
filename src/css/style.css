@@ -28,3 +28,17 @@ html {
   background-color: var(--background-color);
   color: var(--text-color);
 }
+
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+
+a {
+  color: var(--text-color);
+  transition: all ease 0.25s;
+
+  &:hover {
+    font-weight: 600;
+  }
+}

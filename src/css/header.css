@@ -4,12 +4,17 @@
 
 header {
   margin: 0;
+  height: 15vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding-block: 1rem;
   padding-inline: 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
 
   .left {
     display: flex;
